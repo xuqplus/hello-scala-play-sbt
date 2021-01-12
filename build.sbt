@@ -1,4 +1,4 @@
-name := """play-java-seed"""
+name := """hello-scala-play-sbt"""
 organization := "com.github.xuqplus"
 
 version := "1.0-SNAPSHOT"
