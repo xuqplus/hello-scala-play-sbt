@@ -32,4 +32,9 @@ class BController @Inject()(val controllerComponents: ControllerComponents) exte
     val car = Car(7, "byd")
     Ok(car.toString)
   }
+
+  // todo, process request parameters
+  def processPost() = Action {
+    Ok("ok")
+  }
 }

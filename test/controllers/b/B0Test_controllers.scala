@@ -11,7 +11,7 @@ import play.api.test.{FakeRequest, Helpers}
 
 import scala.concurrent.Future
 
-class B0Test extends PlaySpec with Results {
+class B0Test_controllers extends PlaySpec with Results {
   val log = Logger(getClass)
 
   /**
