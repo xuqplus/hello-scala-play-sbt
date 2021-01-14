@@ -33,8 +33,11 @@
 
   <logger name="play" level="INFO" />
   <logger name="application" level="DEBUG" />
+  <!--  name case sensitive, level case insensitive-->
+  <!--  inherit from root if not defined/specified-->
+  <logger name="controllers.AController" level="error" />
 
-  <root level="WARN">
+  <root level="warn">
     <appender-ref ref="ASYNCFILE" />
     <appender-ref ref="ASYNCSTDOUT" />
   </root>
